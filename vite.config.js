@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-  base: '/ujpallazzio/',
+  base: '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
